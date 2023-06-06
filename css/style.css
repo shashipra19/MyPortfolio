@@ -30,7 +30,7 @@ nav ul{
   
   display:inline-flex;
   list-style-type:none;
-  word-spacing: 20px;
+  word-spacing: 15px;
 }
 .logo{
   position: absolute;
@@ -40,8 +40,9 @@ nav ul{
   font-family: 'Sacramento', cursive;
 }
 ul li{
-  margin:0 40px;
+  margin:0 30px;
 }
+
 ul li a{
   color: #0189ff;
   font-weight: bolder;
@@ -78,6 +79,7 @@ ul li a{
   margin-top: 10px;
   height: 200px;
   width: 200px;
+  box-shadow:0 0 20px rgba(0,0,0,0.2)
 }
 .photo:hover{
   cursor: pointer;
@@ -101,12 +103,46 @@ span{
 .middle-cointainer {
   background-color: #B9E9FC;
 }
+
+.table-list{
+  border-collapse:collapse;
+  margin:20px auto 0 auto;
+  font-size:0.9em;
+  min-width:400px;
+  border-radius:5px 5px 0 0;
+  overflow:hidden;
+  padding:30px;
+  box-shadow:0 0 20px rgba(0,0,0,0.2)
+}
+.table-list thead tr{
+  background-color:#0189ff;
+  color:white;
+  text-align:left;
+  font-weight:bold;
+}
+.table-list th,
+.table-list td{
+  padding:12px 15px;
+}
+.table-list tbody tr{
+  border-bottom:1px solid lightslategrey;
+}
+.table-list tr:last-of-type{
+  border-bottom:2px solid #0189ff;
+}
+tr{
+  cursor:pointer;
+}
+tr:hover{
+  background-color:#FEFF86;
+}
+
 .btn{
     width: 140px;
     border:0;
     padding: 12px 10px;
     outline: none;
- 
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
     background: linear-gradient(to right, #2ac6ff,#0189ff);
     border-radius: 6px;
     cursor: pointer;
