@@ -88,6 +88,9 @@ ul li a{
   transition-duration:1s;
   /* scale: 1; */
 }
+.skill-row{
+line-height:1.5;
+}
 .webdev{
   border-radius: 100%;
   height: 200px;
